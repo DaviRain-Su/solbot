@@ -4,8 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.86"
+chrono = "0.4.38"
 dotenv = "0.15.0"
+helius = "0.2.0"
 log = "0.4.21"
 pretty_env_logger = "0.5.0"
+solana-client = "1.18.16"
+solana-sdk = "1.18.16"
 teloxide = { version = "0.12.2", features = ["macros"] }
 tokio = { version = "1.38.0", features = ["rt-multi-thread", "macros"] }
